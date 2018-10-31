@@ -1,5 +1,4 @@
 import React from 'react';
-// import CountrySelector from '../components/CountrySelector';
 import SongDetail from '../components/SongDetail';
 
 class SongsContainer extends React.Component {
@@ -9,7 +8,7 @@ class SongsContainer extends React.Component {
       songs: [],
       list: null
     };
-    // this.handleCountrySelected = this.handleCountrySelected.bind(this);
+    this.handleSelected = this.handleSelected.bind(this);
   }
 
   componentDidMount() {
