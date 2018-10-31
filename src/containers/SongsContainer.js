@@ -33,7 +33,6 @@ class SongsContainer extends React.Component {
         </SongDetail>);
     })
 
-
     return (
       <div>
         <h2>List</h2>
