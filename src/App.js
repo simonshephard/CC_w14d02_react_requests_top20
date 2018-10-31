@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
-import SongsContainer from './containers/SongsContainer';
+import ListContainer from './containers/ListContainer';
 
 class App extends Component {
   render() {
     return (
-      <SongsContainer />
+      <ListContainer />
     );
   }
 }

@@ -2,8 +2,8 @@ import React from 'react';
 
 const Selector = (props) => {
 
-  const options = props.lists.map((list, index) => {
-    return <option value={index} key={index}>{list.name}</option>
+  const options = props.list.map((item, index) => {
+    return <option value={index} key={index}>{item.name}</option>
   });
 
   function handleChange(event) {
